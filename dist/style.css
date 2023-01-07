@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Langdon';
+    src: url('./fonts/Langdon-52ov.otf');
+}
+
+@font-face {
+    font-family: 'HappyEnding';
+    src: url('./fonts/MyHappyEndingRegular-Lx7G.ttf');
+}
+
 body {
     background-size: cover;
     background-attachment: fixed;
@@ -69,6 +79,7 @@ div#content {
 }
 
 div#content>* {
+    font-family: 'HappyEnding';
     margin: auto;
 }
 
@@ -83,7 +94,8 @@ div.homepage-container {
 }
 
 div.homepage-container .restaurant-name {
-    font-size: 4em;
+    font-family: 'Langdon';
+    font-size: 4.5em;
 }
 
 div.homepage-container img.logo {
@@ -91,7 +103,7 @@ div.homepage-container img.logo {
 }
 
 div.homepage-container .restaurant-description {
-    font-size: 2em;
+    font-size: 3.2em;
 }
 
 .restaurant-description p {
@@ -101,6 +113,7 @@ div.homepage-container .restaurant-description {
 .restaurant-description p.warning {
     padding-top: 20px;
     font-weight: 600;
+    text-shadow: 3px 3px 2px black;
     color: #ea4949
 }
 
@@ -110,7 +123,7 @@ div.homepage-container .opening-hours {
 
 .opening-hours table {
     text-align: center;
-    font-size: 1.6em;
+    font-size: 2.5em;
 }
 
 .opening-hours table {
