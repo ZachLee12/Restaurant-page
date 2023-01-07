@@ -96,6 +96,7 @@ div.homepage-container {
 div.homepage-container .restaurant-name {
     font-family: 'Langdon';
     font-size: 4.5em;
+    text-shadow: 4px 4px 2px black;
 }
 
 div.homepage-container img.logo {
@@ -157,7 +158,7 @@ div.item-container .dish-description {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.3em;
+    font-size: 2em;
 }
 
 div.item-container>img {
@@ -179,12 +180,13 @@ div.about-us-container {
 }
 
 div.title-container>p {
-    font-size: 3em;
+    font-size: 5em;
+    text-shadow: 3px 3px 2px black;
 }
 
 div.desc-container {
     width: 550px;
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
 /* animation for added elements */
