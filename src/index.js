@@ -2,6 +2,8 @@ import loadHomePage from "./home.js";
 import loadMenu from "./menu.js";
 import loadAboutUs from "./about.js";
 import BackgroundImage from './assets/background.jpg'
+import './style.css';
+import './reset.css';
 
 document.body.style.backgroundImage = `url(${BackgroundImage})`;
 

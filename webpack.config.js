@@ -1,13 +1,12 @@
 const path = require('path');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    mode: 'development',
+    mode: 'production',
     entry: './src/index.js',
     output: {
         filename: 'main.js',
-        path: path.resolve(__dirname, 'dist'),
-        publicPath: 'http://localhost:8081/'
+        path: path.resolve(__dirname, 'dist')
     },
     devServer: {
         static: './dist',
@@ -23,13 +22,18 @@ module.exports = {
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
                 type: 'asset/resource',
             },
+            {
+                test: /\.(woff|woff2|eot|ttf|otf)$/i,
+                type: 'asset/resource',
+            },
+            {
+                test: /\.(png|jpe?g|gif)$/i,
+                use: [
+                    {
+                        loader: 'file-loader',
+                    },
+                ],
+            },
         ],
     },
-    plugins: [
-        new CopyWebpackPlugin({
-            patterns: [
-                { from: './src/assets', to: './assets' }
-            ]
-        })
-    ]
 };
