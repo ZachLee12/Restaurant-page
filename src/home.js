@@ -1,4 +1,5 @@
 import RestaurantLogo from './assets/logo.png'
+import { openingHours } from './openingHours'
 
 const homePage = () => {
     function _generateName() {
@@ -33,17 +34,7 @@ const homePage = () => {
     function _generateOpenHours() {
         const openHours = document.createElement('div')
         openHours.className = 'opening-hours'
-
-        fetch('./assets/openingHours.html')
-            .then(response => response.text())
-            .then(html => {
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(html, 'text/html')
-                const templateElement = doc.querySelector('.template')
-                const template = templateElement.innerHTML;
-                openHours.innerHTML = template;
-            })
-
+        openHours.innerHTML = openingHours;
         return openHours;
     }
 
