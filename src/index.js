@@ -1,7 +1,7 @@
 import loadHomePage from "./home.js";
 import loadMenu from "./menu.js";
 import loadAboutUs from "./about.js";
-import BackgroundImage from './assets/background.jpg'
+import BackgroundImage from './assets/images/background.jpg'
 import './style.css';
 import './reset.css';
 

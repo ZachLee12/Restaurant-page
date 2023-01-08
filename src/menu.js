@@ -1,6 +1,6 @@
-import Burger from './assets/burger.jpg'
-import DeluxeBurder from './assets/deluxe_burger.jpg'
-import CheeseMania from './assets/cheese_mania.jpg'
+import Burger from './assets/images/burger.jpg'
+import DeluxeBurder from './assets/images/deluxe_burger.jpg'
+import CheeseMania from './assets/images/cheese_mania.jpg'
 
 const makeMenuContainer = () => {
     const menuContainer = document.createElement('div')

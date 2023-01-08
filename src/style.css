@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Langdon';
-    src: url('./Langdon-52ov.otf');
+    src: url('./assets/fonts/Langdon-52ov.otf');
 }
 
 @font-face {
     font-family: 'HappyEnding';
-    src: url('./MyHappyEndingRegular-Lx7G.ttf');
+    src: url('./assets/fonts/MyHappyEndingRegular-Lx7G.ttf');
 }
 
 body {

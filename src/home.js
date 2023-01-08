@@ -1,4 +1,4 @@
-import RestaurantLogo from './assets/logo.png'
+import RestaurantLogo from './assets/images/logo.png'
 import { openingHours } from './openingHours'
 
 const homePage = () => {
