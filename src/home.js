@@ -21,7 +21,8 @@ const homePage = () => {
         const restaurantDescription = document.createElement('div')
         restaurantDescription.className = 'restaurant-description'
         const p1 = document.createElement('p')
-        p1.innerHTML = 'The best burger shack in town!'
+        p1.className = 'best-burgers-sentence'
+        p1.innerHTML = 'The <span id="best">best</span> burgers in town!'
         const p2 = document.createElement('p')
         p2.className = 'warning'
         p2.innerHTML = 'Warning: our burgers are highly addictive.'

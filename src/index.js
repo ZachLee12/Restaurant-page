@@ -39,7 +39,6 @@ aboutUsNav.addEventListener('click', () => {
 const initializeWebsite = (() => {
     loadHomePage();
     setNavIndicator(homepageNav)
-
     // loadMenu();
     // loadAboutUs();
 })();

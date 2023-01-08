@@ -20,7 +20,6 @@ const aboutUs = () => {
         return descContainer;
     }
 
-
     function generateAboutUs() {
         const container = document.createElement('div')
         container.appendChild(_generateTitle())
@@ -31,7 +30,6 @@ const aboutUs = () => {
 
     return generateAboutUs();
 }
-
 
 export default function loadAboutUs() {
     //wipe out page content before injecting new content
