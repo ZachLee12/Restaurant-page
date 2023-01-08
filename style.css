@@ -43,11 +43,6 @@ body {
     justify-content: center;
 }
 
-div.nav-container>.nav {
-    transform: translateY(0);
-    transition: transform 0.4s;
-}
-
 div.nav-container>.nav:hover {
     transform: translateY(-10px);
 }
@@ -56,7 +51,10 @@ div.nav-container>.nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.6em;
+    font-size: 1.8em;
+    font-family: 'Langdon';
+    transform: translateY(0);
+    transition: transform 0.4s;
 }
 
 div.nav-container>p {
@@ -105,6 +103,15 @@ div.homepage-container img.logo {
 
 div.homepage-container .restaurant-description {
     font-size: 3.2em;
+}
+
+.restaurant-description #best{
+    text-decoration: underline;   
+}
+
+.restaurant-description .best-burgers-sentence{
+    font-size: 1.5em;
+    text-shadow: 4px 4px 2px rgb(0, 0, 0);
 }
 
 .restaurant-description p {
