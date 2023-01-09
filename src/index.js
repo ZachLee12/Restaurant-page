@@ -7,6 +7,15 @@ import './reset.css';
 
 document.body.style.backgroundImage = `url(${BackgroundImage})`;
 
+//IIFE
+(function setFavicons(favicon) {
+    let headTitle = document.querySelector('head');
+    let setFavicon = document.createElement('link');
+    setFavicon.setAttribute('rel', 'shortcut icon');
+    setFavicon.setAttribute('href', favicon);
+    headTitle.appendChild(setFavicon);
+})('./assets/images/favicon.png')
+
 function setNavIndicator(navElement) {
     navElement.style.borderBottom = '2px solid white'
 }
