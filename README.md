@@ -1,5 +1,5 @@
 # Webpack-Burger-Shack-Page
-A single-page project built with Webpack that emulates multiple-pages. As you navigate through the pages, new HTML is being injected into the ```DOM```. This project is built with several JavaScript modules (in ```src```). Using only ```index.js``` as the entry point, the output is ```main.js```, which has been bundled by Webpack.
+A single-page project built with [Webpack](https://webpack.js.org/) that emulates multiple-pages. As you navigate through the pages, new HTML is being injected into the ```DOM```. This project is built with several JavaScript modules (in ```src```). Using only ```index.js``` as the entry point, the output is ```main.js```, which has been bundled by Webpack.
 
 Live demo: https://zachlee12.github.io/Restaurant-page/
 
@@ -32,5 +32,5 @@ In this case, for example, I have configured that all images (or files with exte
 ```
 
 ## Reflection
-Learning to configure Webpack brings great advantage to make my project development more flexible. Like its successors, Snowpack and ViteJS, it does not provide certain features by default like Hot Module Reloading (HMR), but the knowledge of configuring Webpack could allow one to use it to its full potential. 
+Learning to configure Webpack brings great advantage to make my project development more flexible. Like its successors, [Snowpack](https://www.snowpack.dev/) and [ViteJS](https://vitejs.dev/), it does not provide certain features by default like Hot Module Reloading (HMR), but the knowledge of configuring Webpack could allow one to use it to its full potential. 
 
