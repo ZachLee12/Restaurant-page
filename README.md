@@ -1,7 +1,7 @@
 # Webpack-Burger-Shack-Page
 A single-page project built with [Webpack](https://webpack.js.org/) that emulates multiple-pages. As you navigate through the pages, new HTML is being injected into the ```DOM```. This project is built with several JavaScript modules (in ```src```). Using only ```index.js``` as the entry point, the output is ```main.js```, which has been bundled by Webpack.
 
-Live demo: https://zachlee12.github.io/Restaurant-page/
+Live demo: https://zachlee12.github.io/Webpack-Burger-Shack-Page/
 
 ## Webpack 
 Webpack is a powerful module bundler that takes all JavaScript code and its dependencies, and bundles them into a single file that can be run in the browser. It offers a wide range of tools and features that is configurable via the ```webpack.config.js``` file. Although it has a steep learning curve, its flexibility in configurations allow great benefits, especially for large and more complex projects.
