@@ -1,4 +1,4 @@
-# Restaurant-page
+# Webpack-Burger-Shack-Page
 A single-page project built with Webpack that emulates multiple-pages. As you navigate through the pages, new HTML is being injected into the ```DOM```. This project is built with several JavaScript modules (in ```src```). Using only ```index.js``` as the entry point, the output is ```main.js```, which has been bundled by Webpack.
 
 Live demo: https://zachlee12.github.io/Restaurant-page/
