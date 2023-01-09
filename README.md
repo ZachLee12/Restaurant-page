@@ -7,7 +7,7 @@ Live demo: https://zachlee12.github.io/Webpack-Burger-Shack-Page/
 Webpack is a powerful module bundler that takes all JavaScript code and its dependencies, and bundles them into a single file that can be run in the browser. It offers a wide range of tools and features that is configurable via the ```webpack.config.js``` file. Although it has a steep learning curve, its flexibility in configurations allow great benefits, especially for large and more complex projects.
 
 ## webpack.config.js
-In this project, I have configured Webpack to produce an output that has an ```assets``` directory, with subdirectories of the static assets, namely ```fonts``` and ```images```. This is achieved by configuring ```module generators```. The ```module.rules``` array defines a set of conditions that determine which files should be processed by the ```generator```, and the actions that should be taken on those files. 
+In this project, I have configured Webpack to produce an output that has an ```assets``` directory, with subdirectories of the ___static___ assets, namely ```fonts``` and ```images```. This is achieved by configuring ```module generators```. The ```module.rules``` array defines a set of conditions that determine which files should be processed by the ```generator```, and the actions that should be taken on those files. 
 
 The result is a more structured and organized ```dist``` directory with subdirectories. 
 
