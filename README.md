@@ -34,4 +34,7 @@ In this case, for example, I have configured that all images (or files with exte
 ## Reflection
 Learning to configure Webpack brings great advantage to make my project development more flexible. Like its successors, [Snowpack](https://www.snowpack.dev/) and [ViteJS](https://vitejs.dev/), it does not provide certain features by default like Hot Module Reloading (HMR), but the knowledge of configuring Webpack could allow one to use it to its full potential. 
 
+<<<<<<< HEAD
 Live demo: https://zachlee12.github.io/Restaurant-page/
+=======
+>>>>>>> 5e1d2c498b45ef94924649c16dc5fd1c3e94d20c
